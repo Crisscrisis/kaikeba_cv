@@ -1,0 +1,23 @@
+2.1 What do you want to get in this course?
+
+Answer:掌握基本CV方法和原理，掌握深度学习的原理，增加工程实战经验
+
+2.2 What problems do you want to solve?
+
+Answer:基本的识别与检测方法
+
+2.3 What advantages do you have to accomplish your goal?
+
+Answer:有1年多的工作经验
+
+2.4 What disadvantages you need to overcome to accomplish your goal?
+
+Answer:需要更多时间
+
+2.5 How will you plan to study in this course?
+
+Answer:按时完成作业，回顾记笔记
+
+5.2 Do think about your own interests very carefully and choose your topic within 3 weeks.
+
+Answer:手势识别方向
