@@ -11,8 +11,6 @@ input:
 output :
     None  
 '''
-
-
 def image_show(img):
     plt.figure(figsize=(3, 3))
     plt.imshow(img)
