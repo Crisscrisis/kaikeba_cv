@@ -11,9 +11,10 @@ input:
 output :
     None  
 '''
-def image_show(img):
+def image_show(img, name):
     plt.figure(figsize=(3, 3))
     plt.imshow(img)
+    plt.title(name)
     plt.show()
 
 
@@ -132,7 +133,7 @@ def perspectice_transform(img, ori_pix, dst_pix):
 flag = 1    # gray:0
 img_ori = cv2.imread('./lenna.jpg', flag)
 img_ori = cv2.cvtColor(img_ori, cv2.COLOR_BGR2RGB)
-image_show(img_ori)
+image_show(img_ori, 'img_ori')
 
 # crop test
 '''
@@ -140,7 +141,7 @@ img_cropped = image_crop(img_ori, 100, 300, 100, 200)   # normal case
 img_cropped = image_crop(img_ori, 200, 100, 300, 200)   # exception: x1 > x2
 img_cropped = image_crop(img_ori, 100, 100, 200, 200)   # exception: x1 = x2
 img_cropped = image_crop(img_ori, -10, 100, 800, 200)   # exception: exceed range
-image_show(img_cropped)
+image_show(img_cropped, 'img_cropped')
 '''
 
 
@@ -149,7 +150,7 @@ image_show(img_cropped)
 img_shift = color_shift(img_ori,80,90,70)   # normal case
 img_shift = color_shift(img_ori,500,-10,700)    # exception: exceed range [0, 255]
 print("img_shift:\n",img_shift)
-image_show(img_shift)
+image_show(img_shift, 'img_shift')
 '''
 
 
@@ -157,7 +158,7 @@ image_show(img_shift)
 '''
 img_rotated = rotation(img_ori, 45, 2)  # noamal case: counter clockwise
 img_rotated = rotation(img_ori, -20, 2)  # noamal case: clockwise
-image_show(img_rotated)
+image_show(img_rotated, 'img_rotated')
 '''
 
 
@@ -185,5 +186,5 @@ dy4 = random.randint(height - random_margin - 1, height - 1)
 ori_pix = (x1, y1, x2, y2, x3, y3, x4, y4)
 dst_pix = (dx1, dy1, dx2, dy2, dx3, dy3, dx4, dy4)
 M_warp, img_persp = perspectice_transform(img_ori, ori_pix, dst_pix)
-image_show(img_persp)
+image_show(img_persp, 'img_persp')
 '''
