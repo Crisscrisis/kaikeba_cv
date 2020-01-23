@@ -1,3 +1,9 @@
+'''
+author      :   Lucas Liu
+date        :   2020/1/18
+description :   week 1 homework, low level image process method, including crop, color shift,
+                rotation, perspective transform, and related testcase
+'''
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
