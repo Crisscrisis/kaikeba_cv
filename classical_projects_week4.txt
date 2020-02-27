@@ -1,0 +1,8 @@
+This is the week4 classical projects, by group 2, it contains 2 projects among 4, including project A: Image stitching, and project B: object detection.
+
+for project A: Image stitching, author:
+
+for project B: object detection, author: Lucas LIU, reference:
+1. 	problem: "module 'cv2.cv2' has no attribute 'SIFT'" when compiling
+	answer: reference: https://www.cnblogs.com/jqpy1994/p/10561891.html
+2.	reference: https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_feature_homography/py_feature_homography.html
