@@ -1,5 +1,0 @@
-ref:
-1. https://blog.csdn.net/asialee_bird/article/details/80059634
-2. https://blog.csdn.net/jacke121/article/details/88676847
-3. https://blog.csdn.net/csj941227/article/details/75209328
-4. https://www.c-sharpcorner.com/article/understanding-k-means-clustering-the-easy-way/
