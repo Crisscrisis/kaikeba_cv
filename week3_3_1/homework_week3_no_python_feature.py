@@ -1,3 +1,6 @@
+'''
+descripstion: linear regression, without python feature(numpy, ...)
+'''
 import numpy as np
 import random
 import time
